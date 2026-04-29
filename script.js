@@ -63,16 +63,16 @@ const translations = {
       title: "Selected projects",
       items: [
         {
-          key: "seloger",
-          title: "Real Estate Analytics – SeLoger Platform",
-          desc:"Conceptual project inspired by SeLoger: design of a data model and dashboards to analyze property prices, demand, and regional trends.",
+          key: "littoral",
+          title: "Littoral Region Analytics – Cameroon",
+          desc:"Data analysis and visualization project for the Littoral region of Cameroon, mapping key cities and demographic insights.",
           image:
-            "https://www.seloger.com/assets/apps/home_main/v2/static/media/price-map.webp",
+            "images/Dhis2_LT.png",
           link: "https://www.seloger.com",
           tags: [
-            { label: "SQL", icon: "fa-solid fa-database" },
-            { label: "Power BI", icon: "fa-solid fa-chart-column" },
-            { label: "Data Modeling", icon: "fa-solid fa-diagram-project" }
+            { label: "QGIS", icon: "fa-solid fa-map-location-dot" },
+            { label: "Data Viz", icon: "fa-solid fa-chart-column" },
+            { label: "Geospatial", icon: "fa-solid fa-globe" }
           ]
         },
         {
@@ -194,17 +194,17 @@ const translations = {
       title: "Projets sélectionnés",
       items: [
         {
-          key: "seloger",
-          title: "Analytique immobilière – Plateforme SeLoger",
+          key: "littoral",
+          title:"Analyse Région du Littoral – Cameroun",
           desc:
-            "Projet conceptuel inspiré de SeLoger : conception d’un modèle de données et de tableaux de bord pour analyser les prix, la demande et les tendances régionales.",
+            "Projet d'analyse et visualisation de données pour la région du Littoral au Cameroun, cartographiant les villes clés et les insights démographiques.",
           image:
-            "https://www.seloger.com/assets/apps/home_main/v2/static/media/price-map.webp",
+            "images/Dhis2_LT.png",
           link: "https://www.seloger.com",
           tags: [
-            { label: "SQL", icon: "fa-solid fa-database" },
-            { label: "Power BI", icon: "fa-solid fa-chart-column" },
-            { label: "Modélisation de données", icon: "fa-solid fa-diagram-project" }
+            { label: "QGIS", icon: "fa-solid fa-map-location-dot" },
+            { label: "Data Viz", icon: "fa-solid fa-chart-column" },
+            { label: "Géospatial", icon: "fa-solid fa-globe" }
           ]
         },
         {
