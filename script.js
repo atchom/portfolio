@@ -68,7 +68,7 @@ const translations = {
           desc:"Data analysis and visualization project for the Littoral region of Cameroon, mapping key cities and demographic insights.",
           image:
             "images/Dhis2_LT.png",
-          link: "https://www.seloger.com",
+          link: "https://github.com/atchom/DHIS2_LT_CMR/blob/main/README.md",
           tags: [
             { label: "QGIS", icon: "fa-solid fa-map-location-dot" },
             { label: "Data Viz", icon: "fa-solid fa-chart-column" },
@@ -200,7 +200,7 @@ const translations = {
             "Projet d'analyse et visualisation de données pour la région du Littoral au Cameroun, cartographiant les villes clés et les insights démographiques.",
           image:
             "images/Dhis2_LT.png",
-          link: "https://www.seloger.com",
+          link: "https://github.com/atchom/DHIS2_LT_CMR/blob/main/README.md",
           tags: [
             { label: "QGIS", icon: "fa-solid fa-map-location-dot" },
             { label: "Data Viz", icon: "fa-solid fa-chart-column" },
