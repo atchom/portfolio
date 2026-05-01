@@ -81,7 +81,7 @@ const translations = {
           desc:"Geographic Information System mapping cocoa production zones in Cameroon. Collection, cleaning, and geolocalization of production areas with interactive maps",
           image:
             "images/Map_cmr_SIG.png",
-          link: "https://github.com/atchom/SIG_Cacao_Cameroun/edit/main/README.md",
+          link: "https://github.com/atchom/SIG_Cacao_Cameroun/blob/main/README.md",
           tags: [
             { label: "QGIS", icon: "fa-solid fa-map-location-dot" },
             { label: "Geospatial", icon: "fa-solid fa-globe" },
@@ -215,7 +215,7 @@ const translations = {
             "Système d'Information Géographique cartographiant les zones de production de cacao au Cameroun. Collecte, nettoyage et géolocalisation des localités productrices avec cartes interactives.",
           image:
             "images/Map_cmr_SIG.png",
-          link: "https://github.com/atchom/SIG_Cacao_Cameroun/edit/main/README.md",
+          link: "https://github.com/atchom/SIG_Cacao_Cameroun/blob/main/README.md",
           tags: [
             { label: "QGIS", icon: "fa-solid fa-map-location-dot" },
             { label: "Géospatial", icon: "fa-solid fa-globe" },
