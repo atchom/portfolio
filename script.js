@@ -210,7 +210,7 @@ const translations = {
         },
         {
           key: "sig_cmr_cacao",
-          title: "Insights ventes & marketing – Site Volvic",
+          title: "SIG_Cmr_Cacao – SIG des bassins cacaoyers camerounais",
           desc:
             "Système d'Information Géographique cartographiant les zones de production de cacao au Cameroun. Collecte, nettoyage et géolocalisation des localités productrices avec cartes interactives.",
           image:
