@@ -76,16 +76,17 @@ const translations = {
           ]
         },
         {
-          key: "volvic",
-          title: "Sales & Marketing Insights – Volvic Website",
-          desc:"Conceptual analytics solution inspired by Volvic: monitoring sales performance, product mix, and campaign impact across channels.",
+          key: "sig_cmr_cacao",
+          title: "Cameroon GIS Cocoa – Cocoa Basins GIS",
+          desc:"Geographic Information System mapping cocoa production zones in Cameroon. Collection, cleaning, and geolocalization of production areas with interactive maps",
           image:
-            "https://www.volvic.co.uk/fileadmin/user_upload/gb/stages/999116_Volvic_Website24_Carousel_SparklingRange_FINAL.jpg",
+            "images/Map_cmr_SIG.png",
           link: "https://www.volvic.fr",
           tags: [
-            { label: "Snowflake", icon: "fa-solid fa-cloud" },
-            { label: "dbt", icon: "fa-solid fa-code-branch" },
-            { label: "Power BI", icon: "fa-solid fa-chart-line" }
+            { label: "QGIS", icon: "fa-solid fa-map-location-dot" },
+            { label: "Geospatial", icon: "fa-solid fa-globe" },
+            { label: "Data Cleaning", icon: "fa-solid fa-broom" },
+            { label: "Python", icon: "fa-brands fa-python" }
           ]
         }
       ],
@@ -208,17 +209,18 @@ const translations = {
           ]
         },
         {
-          key: "volvic",
+          key: "sig_cmr_cacao",
           title: "Insights ventes & marketing – Site Volvic",
           desc:
-            "Solution analytique conceptuelle inspirée de Volvic : suivi des performances de ventes, du mix produit et de l’impact des campagnes.",
+            "Système d'Information Géographique cartographiant les zones de production de cacao au Cameroun. Collecte, nettoyage et géolocalisation des localités productrices avec cartes interactives.",
           image:
-            "https://www.volvic.co.uk/fileadmin/user_upload/gb/stages/999116_Volvic_Website24_Carousel_SparklingRange_FINAL.jpg",
+            "images/Map_cmr_SIG.png",
           link: "https://www.volvic.fr",
           tags: [
-            { label: "Snowflake", icon: "fa-solid fa-cloud" },
-            { label: "dbt", icon: "fa-solid fa-code-branch" },
-            { label: "Power BI", icon: "fa-solid fa-chart-line" }
+            { label: "QGIS", icon: "fa-solid fa-map-location-dot" },
+            { label: "Géospatial", icon: "fa-solid fa-globe" },
+            { label: "Nettoyage", icon: "fa-solid fa-broom" },
+            { label: "Python", icon: "fa-brands fa-python" }
           ]
         }
       ],
