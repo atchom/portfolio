@@ -32,30 +32,54 @@ const translations = {
     },
     experience: {
       title: "Professional experience",
+      showMore: "Show more",
+      showLess: "Show less",
       items: [
         {
           role: "Data Registration Assistant (UN Volunteer)",
           company: "UNHCR – Maroua, Cameroon",
           date: "Jan 2023 – Dec 2025",
-          desc:"Automated data flows (Kobo, ProGres, Excel) into a centralized warehouse, built Power BI dashboards, and produced dynamic maps to support refugee assistance."
+          missions: [
+            "Built ETL pipelines feeding monthly Power BI dashboards to track and visualize refugee arrival trends at the transit center.",
+            "Produced site mapping with GIS tools (ArcGIS, QGIS) to keep refugee population locations up to date.",
+            "Designed and deployed KoboToolbox electronic forms with skip logic and validation constraints to ensure data quality.",
+            "Delivered the monthly dashboard visualizing arrival trends at the transit center.",
+            "Handled biometric registration (photos, fingerprints, iris scans) of refugees and asylum seekers.",
+            "Managed the section's equipment stock both on premise and in the field.",
+            "Maintained IT equipment across the 3 food distribution sites in coordination with WFP."
+          ]
         },
         {
           role: "Data Manager Assistant",
           company: "STE HEGBAKOU SARL – Douala, Cameroon",
           date: "Jun 2016 – Oct 2022",
-          desc:"Exploited SQL Server, PostgreSQL, and CSV data, implemented an ELT architecture with Snowflake and dbt, and designed star schemas to optimize query performance."
+          missions: [
+            "Operated daily data sources (SQL Server, PostgreSQL, CSV) to extract, clean, and prepare datasets for decision-making analysis.",
+            "Implemented an ELT architecture with Snowflake and dbt: raw data loading followed by in-warehouse transformations.",
+            "Extracted, cleaned, and prepared client data to support data specialists in building marketing-mix models.",
+            "Produced weekly sales-trend statistics.",
+            "Automated a report for the sales team using filters, parameters, and calculated sets that automatically qualify business leads.",
+            "Automated leave-letter generation via Power Automate (flow triggered on a SharePoint list, PDF generation from a Word template)."
+          ]
         },
         {
           role: "Data Entry Assistant",
           company: "UNHCR – Bertoua, Cameroon",
           date: "2014 – 2016",
-          desc:"Registered asylum seekers in ProGres, cleaned and validated data, and contributed to data quality improvement initiatives."
+          missions: [
+            "Entered data on asylum seekers, refugees, and other persons of concern to UNHCR into the ProGres database.",
+            "Provided statistics and drafted reports related to registration data, on request."
+          ]
         },
         {
           role: "Professional Intern – Completion Department",
           company: "Schlumberger – Douala, Cameroon",
           date: "Sep 2009 – Feb 2010",
-          desc:"Maintained completion equipment, provided on-site technical support, and contributed to the availability and security of well completion applications."
+          missions: [
+            "Managed and maintained the equipment and tools used during completion operations.",
+            "Provided on-site technical support during preparation, installation, and operation of completion equipment.",
+            "Ensured the availability, security, and performance of business applications (Well Completion Design, stress analysis, field data management)."
+          ]
         }
       ]
     },
@@ -87,6 +111,34 @@ const translations = {
             { label: "Geospatial", icon: "fa-solid fa-globe" },
             { label: "Data Cleaning", icon: "fa-solid fa-broom" },
             { label: "Python", icon: "fa-brands fa-python" }
+          ]
+        },
+        {
+          key: "fleet_management",
+          title: "Mobile & Desktop Fleet Management App",
+          desc:"Interactive admin dashboard for fleet management: real-time vehicle tracking, delivery monitoring, low-stock alerts, and driver routing, centralizing operational KPIs in a single view.",
+          image:
+            "images/fleet management .png",
+          link: "https://github.com/atchom/Fleet_Management/blob/main/README.md",
+          tags: [
+            { label: "Power BI", icon: "fa-solid fa-chart-column" },
+            { label: "Android", icon: "fa-brands fa-android" },
+            { label: "Tracking", icon: "fa-solid fa-route" },
+            { label: "Geospatial", icon: "fa-solid fa-location-dot" }
+          ]
+        },
+        {
+          key: "predication_app",
+          title: "Predication App – Mobile Reporting",
+          desc:"Cross-platform mobile app (Flutter + PostgreSQL) to manage preaching reports: real-time dashboard, offline-first sync, secure authentication, and field mapping.",
+          image:
+            "images/predication_app.png",
+          link: "https://github.com/atchom/Predication_App/blob/main/README.md",
+          tags: [
+            { label: "Flutter", icon: "fa-solid fa-mobile-screen-button" },
+            { label: "Supabase", icon: "fa-solid fa-database" },
+            { label: "Offline sync", icon: "fa-solid fa-rotate" },
+            { label: "Dashboard", icon: "fa-solid fa-gauge-high" }
           ]
         }
       ],
@@ -160,34 +212,54 @@ const translations = {
     },
     experience: {
       title: "Expériences professionnelles",
+      showMore: "Voir plus",
+      showLess: "Voir moins",
       items: [
         {
-          role: "Assistant en enregistrement des données (Volontaire ONU)",
+          role: "Data Registration Assistant (Volontaire ONU)",
           company: "HCR – Maroua, Cameroun",
           date: "Janv. 2023 – Déc. 2025",
-          desc:
-            "Automatisation des flux de données (Kobo, ProGres, Excel) vers un entrepôt centralisé, création de tableaux de bord Power BI et production de cartes dynamiques pour appuyer l’assistance aux réfugiés."
+          missions: [
+            "Développement de pipelines ETL pour alimenter des tableaux de bord Power BI mensuels, suivant les tendances d’arrivée des réfugiés au centre de transit.",
+            "Production cartographique des sites pour actualiser la localisation des populations réfugiées à l’aide de SIG (ArcGIS, QGIS).",
+            "Conception et déploiement de formulaires KoboToolbox avec logiques de saut (skip logic) et contraintes de validation pour garantir la qualité des données.",
+            "Production du dashboard mensuel pour visualiser la tendance des arrivées au centre de transit.",
+            "Enregistrements biométriques (photos, empreintes digitales, scans d’iris) des réfugiés et demandeurs d’asile.",
+            "Gestion du stock du matériel de travail de la section, en premise et sur le terrain.",
+            "Maintenance du parc informatique sur les 3 sites de distribution des vivres en coordination avec le PAM."
+          ]
         },
         {
-          role: "Assistant Data Manager",
+          role: "Data Manager Assistant",
           company: "STE HEGBAKOU SARL – Douala, Cameroun",
           date: "Juin 2016 – Oct. 2022",
-          desc:
-            "Exploitation de données SQL Server, PostgreSQL et CSV, mise en place d’une architecture ELT avec Snowflake et dbt, et conception de schémas en étoile pour optimiser les performances des requêtes."
+          missions: [
+            "Exploitation quotidienne de sources de données (SQL Server, PostgreSQL, CSV) pour extraire, nettoyer et préparer des jeux de données à des fins d’analyse décisionnelle.",
+            "Mise en œuvre d’une architecture ETL avec Snowflake et dbt : chargement des données brutes puis transformations directement dans l’entrepôt.",
+            "Extraction, nettoyage et préparation des données client pour aider les spécialistes des données à créer des modèles de mix marketing.",
+            "Production hebdomadaire des statistiques sur la tendance des ventes.",
+            "Automatisation d’un rapport pour l’équipe commerciale à l’aide de filtres, paramètres et ensembles calculés qualifiant automatiquement les prospects.",
+            "Automatisation de la production des lettres de congé via Power Automate (flux déclenché sur liste SharePoint, génération PDF depuis template Word)."
+          ]
         },
         {
           role: "Assistant de saisie de données",
           company: "HCR – Bertoua, Cameroun",
           date: "2014 – 2016",
-          desc:
-            "Enregistrement des demandeurs d’asile dans ProGres, contrôle et nettoyage des données, contribution à l’amélioration de la qualité des données."
+          missions: [
+            "Saisie de données concernant les demandeurs d’asile, réfugiés et autres personnes relevant de la compétence du HCR dans la base ProGres.",
+            "Fourniture de statistiques et rédaction de rapports liés aux données d’enregistrement, sur demande."
+          ]
         },
         {
           role: "Stagiaire professionnel – Service Complétion",
           company: "Schlumberger – Douala, Cameroun",
           date: "Sep. 2009 – Fév. 2010",
-          desc:
-            "Maintenance des équipements de complétion, support technique sur site et contribution à la disponibilité et à la sécurité des applications de complétion de puits."
+          missions: [
+            "Gestion et entretien des équipements et outils utilisés lors des opérations de complétion.",
+            "Support technique sur site lors de la préparation, l’installation et l’exploitation des équipements de complétion.",
+            "Disponibilité, sécurité et performance des applications métiers (Well Completion Design, analyse de contraintes, gestion de données de terrain)."
+          ]
         }
       ]
     },
@@ -221,6 +293,36 @@ const translations = {
             { label: "Géospatial", icon: "fa-solid fa-globe" },
             { label: "Nettoyage", icon: "fa-solid fa-broom" },
             { label: "Python", icon: "fa-brands fa-python" }
+          ]
+        },
+        {
+          key: "fleet_management",
+          title: "App mobile et desktop de gestion de la flotte",
+          desc:
+            "Tableau de bord administrateur pour la gestion de flotte : suivi des véhicules en temps réel, suivi des livraisons, alertes de stock et routage des chauffeurs, centralisant les KPI opérationnels en une seule vue.",
+          image:
+            "images/fleet management .png",
+          link: "https://github.com/atchom/Fleet_Management/blob/main/README.md",
+          tags: [
+            { label: "Power BI", icon: "fa-solid fa-chart-column" },
+            { label: "Android", icon: "fa-brands fa-android" },
+            { label: "Tracking", icon: "fa-solid fa-route" },
+            { label: "Géospatial", icon: "fa-solid fa-location-dot" }
+          ]
+        },
+        {
+          key: "predication_app",
+          title: "Predication App – Application mobile",
+          desc:
+            "Application mobile multiplateforme (Flutter + PostgreSQL) de gestion des rapports de prédication : dashboard temps réel, synchronisation hors-ligne, authentification sécurisée et cartographie terrain.",
+          image:
+            "images/predication_app.png",
+          link: "https://github.com/atchom/Predication_App/blob/main/README.md",
+          tags: [
+            { label: "Flutter", icon: "fa-solid fa-mobile-screen-button" },
+            { label: "Supabase", icon: "fa-solid fa-database" },
+            { label: "Sync offline", icon: "fa-solid fa-rotate" },
+            { label: "Dashboard", icon: "fa-solid fa-gauge-high" }
           ]
         }
       ],
@@ -308,23 +410,36 @@ function applyTranslations() {
 
 // --- Dynamic content: timeline, projects, stack -------------------
 
+const MISSIONS_PREVIEW = 3; // missions shown before "Voir plus"
+
+// Recalculate an open accordion panel height (after toggling "Voir plus/moins")
+function refreshPanelHeight(panel) {
+  if (!panel.classList.contains("open")) return;
+  const inner = panel.querySelector(".timeline-panel-inner");
+  panel.style.maxHeight = inner.scrollHeight + "px";
+}
+
 function createTimeline() {
   const container = document.getElementById("timeline");
   container.innerHTML = "";
-  const items = translations[currentLang].experience.items;
+  const dict = translations[currentLang].experience;
+  const items = dict.items; // already reverse-chronological
 
   items.forEach((item, index) => {
     const wrapper = document.createElement("div");
     wrapper.className = `timeline-item fade-up ${index % 2 === 0 ? "left" : "right"}`;
 
     const content = document.createElement("div");
-    content.className = "timeline-item-content";
+    content.className = "timeline-item-content accordion" + (index === 0 ? " open" : "");
 
-    const iconWrapper = document.createElement("div");
-    iconWrapper.className = "timeline-icon-wrapper";
-    const icon = document.createElement("i");
-    icon.className = index === 0 ? "fa-solid fa-users" : "fa-solid fa-briefcase";
-    iconWrapper.appendChild(icon);
+    // --- Clickable header ---
+    const header = document.createElement("button");
+    header.type = "button";
+    header.className = "timeline-header";
+    header.setAttribute("aria-expanded", index === 0 ? "true" : "false");
+
+    const headText = document.createElement("div");
+    headText.className = "timeline-head-text";
 
     const title = document.createElement("h3");
     title.className = "timeline-title";
@@ -338,18 +453,97 @@ function createTimeline() {
     date.className = "timeline-date";
     date.textContent = item.date;
 
-    const desc = document.createElement("p");
-    desc.className = "timeline-desc";
-    desc.textContent = item.desc;
+    headText.appendChild(title);
+    headText.appendChild(meta);
+    headText.appendChild(date);
 
-    content.appendChild(title);
-    content.appendChild(meta);
-    content.appendChild(date);
-    content.appendChild(desc);
+    const chevron = document.createElement("span");
+    chevron.className = "timeline-chevron";
+    chevron.innerHTML = '<i class="fa-solid fa-chevron-down"></i>';
+
+    header.appendChild(headText);
+    header.appendChild(chevron);
+
+    // --- Collapsible panel ---
+    const panel = document.createElement("div");
+    panel.className = "timeline-panel" + (index === 0 ? " open" : "");
+
+    const inner = document.createElement("div");
+    inner.className = "timeline-panel-inner";
+
+    const list = document.createElement("ul");
+    list.className = "timeline-missions";
+
+    item.missions.forEach((mission, mIndex) => {
+      const li = document.createElement("li");
+      li.className = "timeline-mission";
+      if (mIndex >= MISSIONS_PREVIEW) li.classList.add("mission-hidden");
+      const mIcon = document.createElement("i");
+      mIcon.className = "fa-solid fa-circle-check";
+      const mText = document.createElement("span");
+      mText.textContent = mission;
+      li.appendChild(mIcon);
+      li.appendChild(mText);
+      list.appendChild(li);
+    });
+
+    inner.appendChild(list);
+
+    // --- "Voir plus / Voir moins" ---
+    if (item.missions.length > MISSIONS_PREVIEW) {
+      const moreBtn = document.createElement("button");
+      moreBtn.type = "button";
+      moreBtn.className = "timeline-more-btn";
+      const hiddenCount = item.missions.length - MISSIONS_PREVIEW;
+      const setLabel = (expanded) => {
+        moreBtn.innerHTML =
+          (expanded ? dict.showLess : `${dict.showMore} (${hiddenCount})`) +
+          ' <i class="fa-solid fa-chevron-down"></i>';
+        moreBtn.classList.toggle("expanded", expanded);
+      };
+      setLabel(false);
+
+      moreBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const expanded = moreBtn.classList.contains("expanded");
+        list
+          .querySelectorAll(".mission-hidden")
+          .forEach((el) => el.classList.toggle("revealed", !expanded));
+        setLabel(!expanded);
+        refreshPanelHeight(panel);
+      });
+
+      inner.appendChild(moreBtn);
+    }
+
+    panel.appendChild(inner);
+
+    // --- Toggle behaviour ---
+    header.addEventListener("click", () => {
+      const isOpen = content.classList.toggle("open");
+      panel.classList.toggle("open", isOpen);
+      header.setAttribute("aria-expanded", isOpen ? "true" : "false");
+      panel.style.maxHeight = isOpen ? inner.scrollHeight + "px" : null;
+    });
+
+    content.appendChild(header);
+    content.appendChild(panel);
+
+    // --- Central icon (unchanged from original) ---
+    const iconWrapper = document.createElement("div");
+    iconWrapper.className = "timeline-icon-wrapper";
+    const icon = document.createElement("i");
+    icon.className = index === 0 ? "fa-solid fa-users" : "fa-solid fa-briefcase";
+    iconWrapper.appendChild(icon);
 
     wrapper.appendChild(content);
     wrapper.appendChild(iconWrapper);
     container.appendChild(wrapper);
+  });
+
+  // Set initial height for the default-open first item
+  requestAnimationFrame(() => {
+    container.querySelectorAll(".timeline-panel.open").forEach(refreshPanelHeight);
   });
 }
 
