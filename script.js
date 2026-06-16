@@ -133,7 +133,7 @@ const translations = {
           desc:"Cross-platform mobile app (Flutter + PostgreSQL) to manage preaching reports: real-time dashboard, offline-first sync, secure authentication, and field mapping.",
           image:
             "images/predication_app.png",
-          link: "https://github.com/atchom/Predication_App/blob/main/README.md",
+          link: "https://github.com/atchom/predication_App/blob/main/README.md",
           tags: [
             { label: "Flutter", icon: "fa-solid fa-mobile-screen-button" },
             { label: "Supabase", icon: "fa-solid fa-database" },
