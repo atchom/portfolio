@@ -302,7 +302,7 @@ const translations = {
             "Tableau de bord administrateur pour la gestion de flotte : suivi des véhicules en temps réel, suivi des livraisons, alertes de stock et routage des chauffeurs, centralisant les KPI opérationnels en une seule vue.",
           image:
             "images/fleet management .png",
-          link: "https://github.com/atchom/fleet_app/blob/main/README.md",
+          link: "https://github.com/atchom/fleet_app",
           tags: [
             { label: "Power BI", icon: "fa-solid fa-chart-column" },
             { label: "Android", icon: "fa-brands fa-android" },
