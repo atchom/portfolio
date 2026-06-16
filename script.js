@@ -119,7 +119,7 @@ const translations = {
           desc:"Interactive admin dashboard for fleet management: real-time vehicle tracking, delivery monitoring, low-stock alerts, and driver routing, centralizing operational KPIs in a single view.",
           image:
             "images/fleet management .png",
-          link: "https://github.com/atchom/fleet_app/blob/main/README.md",
+          link: "https://atchom.github.io/fleet_app",
           tags: [
             { label: "Power BI", icon: "fa-solid fa-chart-column" },
             { label: "Android", icon: "fa-brands fa-android" },
@@ -133,7 +133,7 @@ const translations = {
           desc:"Cross-platform mobile app (Android + PostgreSQL) to manage preaching reports: real-time dashboard, offline-first sync, secure authentication, and field mapping.",
           image:
             "images/predication_app.png",
-          link: "https://github.com/atchom/predication_App/blob/main/README.md",
+          link: "https://atchom.github.io/predication_App",
           tags: [
             { label: "Android", icon: "fa-solid fa-mobile-screen-button" },
             { label: "postgreSQL", icon: "fa-solid fa-database" },
@@ -302,7 +302,7 @@ const translations = {
             "Tableau de bord administrateur pour la gestion de flotte : suivi des véhicules en temps réel, suivi des livraisons, alertes de stock et routage des chauffeurs, centralisant les KPI opérationnels en une seule vue.",
           image:
             "images/fleet management .png",
-          link: "https://github.com/atchom/fleet_app",
+          link: "https://atchom.github.io/fleet_app/",
           tags: [
             { label: "Power BI", icon: "fa-solid fa-chart-column" },
             { label: "Android", icon: "fa-brands fa-android" },
@@ -317,7 +317,7 @@ const translations = {
             "Application mobile multiplateforme (Android + PostgreSQL) de gestion des rapports de prédication : dashboard temps réel, synchronisation hors-ligne, authentification sécurisée et cartographie terrain.",
           image:
             "images/predication_app.png",
-          link: "https://github.com/atchom/predication_App/blob/main/README.md",
+          link: "https://atchom.github.io/predication_App/",
           tags: [
             { label: "Android", icon: "fa-solid fa-mobile-screen-button" },
             { label: "postgreSQl", icon: "fa-solid fa-database" },
