@@ -129,8 +129,8 @@ const translations = {
         },
         {
           key: "predication_app",
-          title: "Predication App – Mobile Reporting",
-          desc:"Cross-platform mobile app (Flutter + PostgreSQL) to manage preaching reports: real-time dashboard, offline-first sync, secure authentication, and field mapping.",
+          title: "predication App – Mobile Reporting",
+          desc:"Cross-platform mobile app (Android + PostgreSQL) to manage preaching reports: real-time dashboard, offline-first sync, secure authentication, and field mapping.",
           image:
             "images/predication_app.png",
           link: "https://github.com/atchom/predication_App/blob/main/README.md",
@@ -312,9 +312,9 @@ const translations = {
         },
         {
           key: "predication_app",
-          title: "Predication App – Application mobile",
+          title: "predication App – Application mobile",
           desc:
-            "Application mobile multiplateforme (Flutter + PostgreSQL) de gestion des rapports de prédication : dashboard temps réel, synchronisation hors-ligne, authentification sécurisée et cartographie terrain.",
+            "Application mobile multiplateforme (Android + PostgreSQL) de gestion des rapports de prédication : dashboard temps réel, synchronisation hors-ligne, authentification sécurisée et cartographie terrain.",
           image:
             "images/predication_app.png",
           link: "https://github.com/atchom/predication_App/blob/main/README.md",
