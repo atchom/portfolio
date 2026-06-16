@@ -135,8 +135,8 @@ const translations = {
             "images/predication_app.png",
           link: "https://github.com/atchom/predication_App/blob/main/README.md",
           tags: [
-            { label: "Flutter", icon: "fa-solid fa-mobile-screen-button" },
-            { label: "Supabase", icon: "fa-solid fa-database" },
+            { label: "Android", icon: "fa-solid fa-mobile-screen-button" },
+            { label: "postgreSQL", icon: "fa-solid fa-database" },
             { label: "Offline sync", icon: "fa-solid fa-rotate" },
             { label: "Dashboard", icon: "fa-solid fa-gauge-high" }
           ]
@@ -317,10 +317,10 @@ const translations = {
             "Application mobile multiplateforme (Flutter + PostgreSQL) de gestion des rapports de prédication : dashboard temps réel, synchronisation hors-ligne, authentification sécurisée et cartographie terrain.",
           image:
             "images/predication_app.png",
-          link: "https://github.com/atchom/Predication_App/blob/main/README.md",
+          link: "https://github.com/atchom/predication_App/blob/main/README.md",
           tags: [
-            { label: "Flutter", icon: "fa-solid fa-mobile-screen-button" },
-            { label: "Supabase", icon: "fa-solid fa-database" },
+            { label: "Android", icon: "fa-solid fa-mobile-screen-button" },
+            { label: "postgreSQl", icon: "fa-solid fa-database" },
             { label: "Sync offline", icon: "fa-solid fa-rotate" },
             { label: "Dashboard", icon: "fa-solid fa-gauge-high" }
           ]
