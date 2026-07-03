@@ -43,7 +43,7 @@ const translations = {
           date: "Jan 2026 – Present",
           missions: [
             "Self-hosted and secured database servers (PostgreSQL, MySQL) on dedicated infrastructure: replication, automated backups, monitoring and hardened access.",
-            "Deployed real-time services such as LiveKit (video / WebRTC) and Fluxer for live event synchronization, orchestrated through Docker and reverse proxies.",
+            "Design of an AI-enhanced medical pre-consultation solution with real-time communication channels, orchestrated through Docker and reverse proxies.",
             "Engineered robust ETL/ELT pipelines and offline-first architectures with deferred sync to keep field apps usable without connectivity.",
             "Integrated generative-AI building blocks — prompt design, RAG and workflow automation — to turn raw data into decisions.",
             "Built ShipDeck, a modular ERP for naval shipyards (quotes, parts management, time and inventory tracking).",
@@ -313,7 +313,7 @@ const translations = {
           date: "Janv. 2026 – Aujourd’hui",
           missions: [
             "Auto-hébergement et sécurisation de serveurs de bases de données (PostgreSQL, MySQL) sur infrastructure dédiée : réplication, sauvegardes automatisées, supervision et accès durci.",
-            "Déploiement de services temps réel comme LiveKit (visio / WebRTC) et Fluxer pour la synchronisation d’événements en direct, orchestrés via Docker et reverse-proxy.",
+            "Conception d'une solution de pré-consultation médicale enrichie par IA, avec canaux de communication temps réel, orchestrés via Docker et reverse-proxy.",
             "Conception de pipelines ETL/ELT robustes et d’architectures offline-first à synchronisation différée pour des applications terrain utilisables sans connexion.",
             "Intégration de briques d’IA générative — conception de prompts, RAG et automatisation de workflows — pour transformer la donnée brute en décisions.",
             "Développement de ShipDeck, ERP modulaire pour chantiers navals (devis, gestion des pièces, suivi du temps et des stocks).",
